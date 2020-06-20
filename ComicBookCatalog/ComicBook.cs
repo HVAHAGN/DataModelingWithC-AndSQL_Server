@@ -8,22 +8,15 @@ namespace ComicBookCatalog
 {
     public class ComicBook
     {
-        public virtual int Id;
-        public virtual string Title;
-        public virtual int Volume;
-        public virtual int Issue;
-        public virtual int Year;
-        public virtual int Month;
-        public virtual string Publisher;
-        public virtual string Writer;
-        public virtual string Pencils;
-        public virtual string Inks;
-        public virtual string Letterer;
-        public virtual string Colorist;
-        public virtual string Editor;
-        public virtual string EditorInChief;
-        public virtual string Synopsis;
-        public virtual string Story;
-        public virtual int Part;
+        public virtual int Id { get; set; }
+     
+        public virtual int Volume { get; set; }
+        public virtual int Issue { get; set; }
+        public virtual int Year { get; set; }
+        public virtual int Month { get; set; }
+
+        public virtual string Synopsis { get; set; }
+        public virtual StoryPart StoryPart { get; set; }
+       
     }
 }

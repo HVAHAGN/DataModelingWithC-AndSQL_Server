@@ -39,8 +39,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Character.cs" />
     <Compile Include="ComicBook.cs" />
+    <Compile Include="ComicBookStaffMember.cs" />
+    <Compile Include="ComicBooks_v1.cs" />
+    <Compile Include="ComicBookCharacter.cs" />
+    <Compile Include="Company.cs" />
+    <Compile Include="Person.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Role.cs" />
+    <Compile Include="StaffMember.cs" />
+    <Compile Include="Story.cs" />
+    <Compile Include="StoryPart.cs" />
+    <Compile Include="Title.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
