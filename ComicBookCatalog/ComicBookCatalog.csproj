@@ -40,6 +40,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Character.cs" />
+    <Compile Include="CharacterVersion.cs" />
     <Compile Include="ComicBook.cs" />
     <Compile Include="ComicBookStaffMember.cs" />
     <Compile Include="ComicBooks_v1.cs" />
